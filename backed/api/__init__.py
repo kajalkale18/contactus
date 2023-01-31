@@ -9,7 +9,7 @@ cred = credentials.Certificate("C:/Users/JOJO/Desktop/reactjs/backed/api/key.jso
 firebase_admin.initialize_app(cred)
 
 def create_app():
-    app= Flask(__name__)
+    app = Flask(__name__)
     app.config['SECRET_KEY']='1234kajal'
     CORS(app)
 
